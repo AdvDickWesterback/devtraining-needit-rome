@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Submit the current form</description>
+        <display_name>Submit a Form</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>8</order>
+        <snapshot/>
+        <step_config display_value="Submit a Form">be8e0a935332120028bc29cac2dc34e4</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>dick.westerback@advania.com</sys_created_by>
+        <sys_created_on>2022-03-22 08:28:52</sys_created_on>
+        <sys_id>6da731472f5201106569351ef699b6b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit a Form</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_6da731472f5201106569351ef699b6b8</sys_update_name>
+        <sys_updated_by>dick.westerback@advania.com</sys_updated_by>
+        <sys_updated_on>2022-03-22 08:28:52</sys_updated_on>
+        <table/>
+        <test display_value="Business Rule Test - NeedIt">3147f5072f5201106569351ef699b60a</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=6da731472f5201106569351ef699b6b8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>6da731472f5201106569351ef699b6b8</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dick.westerback@advania.com</sys_created_by>
+        <sys_created_on>2022-03-22 08:28:52</sys_created_on>
+        <sys_id>2da731472f5201106569351ef699b6b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dick.westerback@advania.com</sys_updated_by>
+        <sys_updated_on>2022-03-22 08:28:52</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">ae8b91c9ffa333008d3f5d9ad53bf1ba</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>6da731472f5201106569351ef699b6b8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dick.westerback@advania.com</sys_created_by>
+        <sys_created_on>2022-03-22 08:28:52</sys_created_on>
+        <sys_id>69a731472f5201106569351ef699b6b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dick.westerback@advania.com</sys_updated_by>
+        <sys_updated_on>2022-03-22 08:28:52</sys_updated_on>
+        <value/>
+        <variable display_value="Assert type">c796d40497302200abe4bb7503ac4ad8</variable>
+    </sys_variable_value>
+</record_update>
